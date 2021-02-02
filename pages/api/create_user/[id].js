@@ -1,6 +1,6 @@
 export default function userHandler(req, res) {
   const {
-    query: { id, name },
+    query: { firstName, firstName },
     method,
   } = req
 
