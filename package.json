@@ -4,13 +4,26 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest --watch"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "next": "latest",
+    "node-mocks-http": "^1.10.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "swr": "^0.1.18"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "@babel/core": "^7.11.4",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^7.7.0",
+    "eslint-plugin-react": "^7.20.6",
+    "jest-enzyme": "^7.1.2"
+  }
 }
